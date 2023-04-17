@@ -20,6 +20,7 @@ public class Example22 {
 		
 		response.put("Name","Venkatesh");
 		response.put("job","Doctor");
+		response.put("Degree","MBBS");    // NEW code added for Git
 		
 		System.out.println(response.toJSONString());
 		
